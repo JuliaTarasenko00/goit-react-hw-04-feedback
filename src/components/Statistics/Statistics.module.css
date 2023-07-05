@@ -1,0 +1,11 @@
+.feedback_item_statistic:not(:last-child) {
+  margin-bottom: 10px;
+}
+
+.feedback_list_statistic {
+  margin-bottom: 20px;
+}
+
+.feedback_title {
+  font-size: 30px;
+}
