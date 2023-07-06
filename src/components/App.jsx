@@ -35,7 +35,7 @@ export const App = () => {
     <>
       <Section title={'Please leave feedback'}>
         <FeedbackOptions
-          options={Object.keys({ good, neutral, bad })}
+          options={['good', 'neutral', 'bad']}
           onLeaveFeedback={incrementOnClickBtn}
         />
       </Section>
